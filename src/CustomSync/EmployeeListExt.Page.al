@@ -70,4 +70,5 @@ pageextension 70102 EmployeeListExt extends "Employee List"
                 end;
             until CRMIntegrationRecord.Next = 0;
     end;
+    //Comment
 }
