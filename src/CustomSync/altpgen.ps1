@@ -1,1 +1,4 @@
-﻿C:\Users\bverbeek\.vscode\extensions\ms-dynamics-smb.al-8.2.545335\bin\altpgen.exe -project:"C:\Users\bverbeek\Documents\GitHub\DataVerse" -packagecachepath:"C:\Users\bverbeek\Documents\GitHub\DataVerse\.alpackages" -serviceuri:"https://org13abfcc3.crm4.dynamics.com" -entities:new_employee,systemuser,team -baseid:5200 -tabletype:CDS
+﻿C:\Users\bverbeek\.vscode\extensions\ms-dynamics-smb.al-9.0.615906\bin\altpgen.exe -project:"C:\Users\bverbeek\Documents\GitHub\Dataverse_DDC20220517" -packagecachepath:"C:\Users\bverbeek\Documents\GitHub\Dataverse_DDC20220517\.alpackages" -serviceuri:"https://org13abfcc3.crm4.dynamics.com" -entities:new_employee,systemuser,team -baseid:5200 -tabletype:CDS
+
+#extension
+C:\Users\bverbeek\.vscode\extensions\ms-dynamics-smb.al-9.0.615906\bin\altpgen.exe -project:"C:\Users\bverbeek\Documents\GitHub\Dataverse_DDC20220517" -packagecachepath:"C:\Users\bverbeek\Documents\GitHub\Dataverse_DDC20220517\.alpackages" -serviceuri:"https://org13abfcc3.crm4.dynamics.com" -entities:account -baseid:5200 -tabletype:CDS
