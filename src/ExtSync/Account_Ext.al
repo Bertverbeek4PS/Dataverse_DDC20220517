@@ -4,13 +4,19 @@
 
     fields
     {
-
         field(10011; cr143_VATRegistrationNo; Text[100])
         {
             ExternalName = 'cr143_vatregistrationno';
             ExternalType = 'String';
             Description = '';
             Caption = 'VAT Registration No.';
+        }
+        field(10012; cr143_BCno; Text[100])
+        {
+            ExternalName = 'cr143_bcno';
+            ExternalType = 'String';
+            Description = '';
+            Caption = 'BCno';
         }
     }
 }

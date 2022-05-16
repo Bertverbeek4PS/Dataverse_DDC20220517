@@ -14,6 +14,7 @@ codeunit 70101 "Dataverse Events Ext"
         Customer: Record Customer;
     begin
         InsertIntegrationFieldMapping('CUSTOMER', Customer.FieldNo("VAT Registration No."), CDSAccount.FieldNo(cr143_VATRegistrationNo), IntegrationFieldMapping.Direction::Bidirectional, '', true, false);
+        InsertIntegrationFieldMapping('CUSTOMER', Customer.FieldNo("No."), CDSAccount.FieldNo(cr143_BCno), IntegrationFieldMapping.Direction::ToIntegrationTable, '', true, false);
     end;
 
     procedure InsertIntegrationFieldMapping(IntegrationTableMappingName: Code[20]; TableFieldNo: Integer; IntegrationTableFieldNo: Integer; SynchDirection: Option; ConstValue: Text; ValidateField: Boolean; ValidateIntegrationTableField: Boolean)

@@ -8,6 +8,10 @@ pageextension 70103 "CRM Account List Ext." extends "CRM Account List"
             {
                 ApplicationArea = all;
             }
+            field(cr143_BCno; rec.cr143_BCno)
+            {
+                ApplicationArea = all;
+            }
         }
     }
 }
